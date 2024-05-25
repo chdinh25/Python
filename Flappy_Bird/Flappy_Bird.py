@@ -94,7 +94,7 @@ playscreen = pygame.display.set_mode((width, height))
 # Set SPF for the game
 clock = pygame.time.Clock()
 # Set font for the game
-game_font = pygame.font.Font('04B_19.ttf', 33)
+game_font = pygame.font.Font('font.ttf', 33)
 
 # Initialize all the variables for the game
 gravity = 0.4
