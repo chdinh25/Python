@@ -7,6 +7,7 @@ communication between the client and server.
 
 2. Program Explanation:
 The program comprises two distinct components: the server-side script and the client-side script.
+
 Server-side script:
 •	Initiates a server socket utilizing socket.socket(), utilizing the AF_INET address family for IPv4 compatibility and the SOCK_STREAM socket type for TCP protocol.
 •	Binds the server socket to a specified IP address and port using bind().
